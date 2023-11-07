@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+} body {
+
+    background-image:  linear-gradient(to right,#ffff, #DE431380);
+    background-size: cover;
+    background-repeat: fixed;
+    background-blend-mode: overlay;
+    
+  
+ }
+
+
+ .sidenav {
+    
+    overflow: hidden;
+    background-image: linear-gradient(to right, #FEC163 , #DE4313);
+    height: 95%;
+    width: 100px;
+    position: fixed;
+    left: 50px;
+    top: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+   
+   
+  } 
+
+.sidenav a{
+
+    color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px 5px ;
+    height: 70px;
+    width: 85px;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px
+
+   
+
+}
+
+.social-container a{
+    padding-top: 5px;
+}
+
+.sidenav .user-setting{
+    margin-top: 150px;
+}
+
+.sidenav a:hover {
+
+    background-color: #FEC16380;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10px;
+   
+}
+
+a:is(:link, :active, :visited).active{
+
+    background-color: #FEC16380;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.dash-container{
+
+    background-color: #fff;
+    border-radius: 20px;
+    height: 95%;
+    width: 1350px;
+    position: fixed;
+    left: 160px;
+    top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DE4313; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FEC16380; 
+    
+  }
+
+
+.dash-container p{
+
+    color: #DE4313;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 40px;
+    
+}
+
+.vehiconlogo{
+
+    float: right;
+    margin: 1%;
+
+}
+
+.navreminderTable{
+
+    border-collapse: collapse;
+    margin: 40px;
+    color: #ffff;
+    margin-left: 50px;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+
+
+
+.navreminderTable th:first-child {
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+   
+}
+
+.navreminderTable th:last-child{
+ 
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+
+.rowheader{
+
+    color: #ffff;
+    background-image: linear-gradient(to right, #FEC163, #DE4313);
+    height: 50px;
+   
+}
+
+
+
+.navreminderTable td{
+
+    color: black;
+    background-color: none;
+    padding: 20px;
+
+}
+
+.table-body{
+
+    text-align: center;
+}
+
+.uni-button{
+
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.uni-button button{
+
+    background-color: #FEC16390;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: BLACK;
+    font-size: 12px;
+    width: 160px;
+    text-align: right;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+.uni-button a{
+
+    background-color: #DE4313;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    margin: -160px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ 
