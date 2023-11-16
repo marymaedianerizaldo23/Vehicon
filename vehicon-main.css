@@ -5,18 +5,20 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-image: url('images/bgimg.png'), linear-gradient(to right,#ffff, #DE431380);
-    background-size: 1600px 900px;
-    background-repeat: no-repeat;
+    background-size: contain;
     background-blend-mode: overlay;
+    background-repeat: no-repeat;
     
 }
 
 .topnav {
     overflow: hidden;
     background-image: linear-gradient(to right, #FEC163 , #DE4313);
+    position: relative;
   }
   
   .topnav a {
+   
     float: right;
     color: #f2f2f2;
     text-align: center;
@@ -55,6 +57,9 @@ body{
     margin: 30px;
     padding: 20px;
     border-radius: 16px;
+    bottom: 5000px;
+    
+
   }
 
    
@@ -64,8 +69,43 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: opacity 1s ease-out;
+    
   }
 
   .learnmore a:hover {
     color: rgb(199, 70, 5);
   }
+
+.learnmore-details {
+
+  padding: 30px;
+  padding-top: 200px;
+  text-wrap: balance;
+  margin-right: 50%;
+  border-radius: 20px;
+ 
+}
+
+.learnmore-text {
+
+  align-items: center;
+  background-color: #FEC16380;
+  padding: 70px;
+  margin: 5%;
+  width: 180%;
+  height: 400%;
+  border-radius: 30px;
+  font-size: 20px;
+  display: flexbox;
+  text-align: justify;
+
+
+  
+}
+
+.learnmore-text h1{
+
+  color: #DE4313;
+  text-align: center;
+}

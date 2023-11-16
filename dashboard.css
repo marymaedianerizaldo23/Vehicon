@@ -212,6 +212,14 @@ a:is(:link, :active, :visited).active{
     cursor: pointer;
 }
 
+.text-field {
+
+    border: 1px solid #DE4313;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
 
 
 
